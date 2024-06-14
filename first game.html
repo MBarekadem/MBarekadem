@@ -1,0 +1,31 @@
+<html>
+  <!DOCTYPE html>
+  <head> </head>
+  <script type="text/javascript" src="verif.js"></script>
+  <body>
+    <form onload="return aleatoire()">
+
+    <h1>Rock Paper Scissor Game</h1>
+    <h3>chose your move :</h3>
+    <table>
+    <tr>
+          <td><input type="button" value="Rock"  onclick="return aleatoire('rock')" id="rock" ></td>
+          <td><input type="button" value="Rock"   id="rock1" disabled ></td>
+   </tr> 
+   <tr>
+    <td><input type="button" value="paper" name="r1" id="paper" onclick="return aleatoire('paper')" /></td>
+    <td><input type="button" value="paper" name="r1" id="paper1"  disabled /></td>
+  </tr> 
+ <tr>
+  <td><input type="button" value="scissor" name="r1" id="scissor" onclick="return aleatoire('scissor')" /></td>
+  <td><input type="button" value="scissor" name="r1" id="scissor1" disabled /></td>
+</tr>  
+    
+<tr>
+  <td>your score <input type="number" value="0" disabled id="s1" /></td>
+  <td>computre score<input type="number" value="0" disabled id="s2" /></td>
+</tr>  
+</table>
+</form>
+     </body>
+</html>
